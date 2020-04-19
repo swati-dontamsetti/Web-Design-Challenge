@@ -24,6 +24,9 @@ The website must consist of 7 pages total, including:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
+
+![Images/temperature.png](Images/temperature.png)
+
 * A **comparisons page** that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a bootstrap grid for the visualizations.
