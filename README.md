@@ -22,7 +22,7 @@ The website must consist of 7 pages total, including:
   
 Large:
 
-![Images/landingResize.png](Images/landingResize.png)
+![Images/landingResize.png](Images/new-landingResize.png)
 Small:
 
 ![Images/landingSmall.png](Images/landingSmall.png)
