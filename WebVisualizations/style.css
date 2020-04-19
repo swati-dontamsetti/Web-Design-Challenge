@@ -1,9 +1,13 @@
 body {
-    background-color: rgba(245, 245, 245, 0.781);
+    background-color: seashell;
 }
 
 .row {
     background-color: white;
+}
+
+nav > a > strong {
+    color: yellow;
 }
 
 h3 {
@@ -17,4 +21,10 @@ h1 {
 
 h2 {
     color: purple;
+}
+
+@media (max-width: 800px) {
+    nav > a > strong {
+        color: pink;
+    }
 }
