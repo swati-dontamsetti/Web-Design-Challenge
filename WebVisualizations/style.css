@@ -27,4 +27,8 @@ h2 {
     nav > a > strong {
         color: pink;
     }
+
+    body {
+        background-color: palegoldenrod;
+    }
 }
