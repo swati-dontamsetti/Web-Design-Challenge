@@ -19,8 +19,10 @@ The website must consist of 7 pages total, including:
   * Links to each visualizations page.
   
 Large:
+
 ![Images/landingResize.png](Images/landingResize.png)
 Small:
+
 ![Images/landingSmall.png](Images/landingSmall.png)
 
 * Four **visualization pages**, each with:
@@ -36,8 +38,10 @@ Small:
     * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
     
 Large:
+
 ![Images/comparisons.png](Images/comparisons.png)
 Small:
+
 ![Images/compSmall.png](Images/compSmall.png)
 
 * A **data page** that:
