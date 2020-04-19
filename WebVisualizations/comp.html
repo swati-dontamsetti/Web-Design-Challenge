@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+    <title>Bootstrap Visualization Dashboard</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+      <div class='container'>
+        <nav class="navbar">
+                <div class="col-md-4">    
+                    <div class='title'>
+                        <a href='index.html'><h1>Latitude</h1></a>
+                    </div>
+                </div>  
+                
+               <div class="col-md-1">     
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">Plots</button>
+                        <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="col-md-1">  
+                    <a button type="button" class="btn btn-info" href='comp.html'>Comparisons</a>
+                </div> 
+
+                <div class="col-md-1">  
+                    <a button type="button" class="btn btn-info" href='data.html'>Data</a>
+                </div> 
+            </nav>
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Comparisons: Latitude vs. X</h1>
+            <p>Click any plot for an in-depth analysis.</p>
+        </div>
+      <div class="col-md-6 text-center">
+        <h3>Max Temperature</h3>
+        <a href='temp.html'>
+            <img src="assets/images/1LatvTemp.png" alt="lat_temp">
+        </a>
+      </div>
+      <div class="col-md-6 text-center">
+        <h3 class='text-center'>Humidity</h3>
+        <a href='humidity.html'>
+            <img src="assets/images/2LatvHumid.png" alt="lat_humid">
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h3 class='text-center'>Cloudiness</h3>
+            <a href='cloudiness.html'>
+                <img src="assets/images/3LatvCloud.png" alt="lat_cloud">
+            </a>
+        </div>
+        <div class="col-md-6 text-center">
+            <h3 class='text-center'>Wind Speed</h3>
+            <a href='wind.html'>
+                <img src="assets/images/4LatvWind.png" alt="lat_wind">
+            </a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <footer class="page-footer font-small blue fixed-bottom">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: Swati Dontamsetti</div>  
+    </footer>
+    
+    </body>
+    
+    </html>
