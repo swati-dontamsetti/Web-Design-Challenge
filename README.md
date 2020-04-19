@@ -18,7 +18,8 @@ The website must consist of 7 pages total, including:
   * An explanation of the project.
   * Links to each visualizations page.
   
-![Images/landingResize.png](Images/landingResize.png)![Images/landingSmall.png](Images/landingSmall.png)
+Large:![Images/landingResize.png](Images/landingResize.png)
+Small:![Images/landingSmall.png](Images/landingSmall.png)
 
 * Four **visualization pages**, each with:
   * A descriptive title and heading tag.
