@@ -4,7 +4,7 @@
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-The website can be found here: https://swati-dontamsetti.github.io/index.html
+The website can be found here: https://swati-dontamsetti.github.io/Web-Design-Challenge/
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
